@@ -231,4 +231,8 @@ defmodule Mogrify do
   def image_operator(image, operator) do
     %{image | operations: image.operations ++ [{:image_operator, operator}]}
   end
+
+  def depth(image, depth) do
+    %{image | operations: image.operations ++ [{:depth, depth}]}
+  end
 end
