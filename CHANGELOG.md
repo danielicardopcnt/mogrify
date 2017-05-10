@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.0 (2017-01-20)
+
+* Add depth operation support
+
 ## 0.5.4 (2017-01-20)
 
 * Fix hang with options without params (such as `-auto-orient`)
