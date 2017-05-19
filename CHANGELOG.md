@@ -1,6 +1,10 @@
 # Changelog
 
-## 0.6.0 (2017-01-20)
+## 0.7.0 (2017-05-19)
+
+* Add quality operation support
+
+## 0.6.0 (2017-05-12)
 
 * Add depth operation support
 

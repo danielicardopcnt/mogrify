@@ -4,7 +4,7 @@ defmodule Mogrify.Mixfile do
   def project do
     [
       app: :mogrify,
-      version: "0.6.0",
+      version: "0.7.0",
       elixir: ">= 1.0.0",
       description: description(),
       package: package(),

@@ -235,4 +235,8 @@ defmodule Mogrify do
   def depth(image, depth) do
     %{image | operations: image.operations ++ [{:depth, depth}]}
   end
+
+  def quality(image, quality) do
+    %{image | operations: image.operations ++ [{:quality, quality}]}
+  end
 end
